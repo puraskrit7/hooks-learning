@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import CallBackHandler from "./HookExample/useCallBackExample/example1/CallBackHandler";
+import LargeCalculation from "./HookExample/useMemoExample/example1/LargeCalculation";
+import MemoExample from "./HookExample/useMemoExample/MemoExample";
+import Example from "./HookExample/useReducerExample/Example";
+import TodoComponent from "./HookExample/useReducerExample/TodoComponent";
+import RenderExample from "./HookExample/useRefExample/example1/RenderExample";
+import CompA from "./PropDrilling/CompA";
+import Test from "./Test";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Test /> */}
+      {/* <CallBackHandler /> */}
+      {/* <MemoExample /> */}
+      {/* <LargeCalculation /> */}
+      {/* <RenderExample /> */}
+      {/* <TodoComponent /> */}
+      {/* <Example /> */}
+      {/* <CompA /> */}
+    </>
   );
 }
 
